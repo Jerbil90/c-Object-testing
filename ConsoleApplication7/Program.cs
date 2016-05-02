@@ -21,6 +21,13 @@ namespace ConsoleApplication7
             unitList.Add(hero2);
             unitList.Add(monster);
 
+            int a;
+            int b;
+            a = 40;
+            b = a;
+            a = 13;
+            Console.WriteLine(b);
+
             List<Unit> monsterList = new List<Unit>();
             List<Unit> heroList = new List<Unit>();
 
