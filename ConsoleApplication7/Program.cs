@@ -13,8 +13,12 @@ namespace ConsoleApplication7
         {
             Unit monster = new Unit(2);
             Unit hero = new Unit(1);
+            hero.Strength = 6;
+            Unit hero2 = new Unit(1);
+            //hero2 = hero;
             List<Unit> unitList = new List<Unit>();
             unitList.Add(hero);
+            unitList.Add(hero2);
             unitList.Add(monster);
 
             List<Unit> monsterList = new List<Unit>();
